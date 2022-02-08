@@ -5,13 +5,14 @@
 
 body {
 	background: url(images/pattern-background-desktop.svg);
+	background-color: hsla(240, 83%, 92%, 1);
 	background-repeat: no-repeat;
 }
 
 .container {
 	width: 20em;
 	height: 32em;
-	margin: 3em auto;
+	margin: 7em auto;
 	background-color: whitesmoke;
 	border-radius: 20px;
 	font-family: 'Red Hat Display';
@@ -55,7 +56,9 @@ body {
 	width: 16em;
 	height: 3em;
 	margin: 2em auto;
+	padding: 1rem 0;
 	background-color: #E8EAEF;
+	border-radius: 10px;
 	display: flex;
 }
 
