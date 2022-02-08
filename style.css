@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(images/pattern-background-desktop.svg);
+	background-repeat: no-repeat;
+}
+
+.container {
+	width: 20em;
+	height: 32em;
+	margin: 3em auto;
+	background-color: whitesmoke;
+	border-radius: 20px;
+	font-family: 'Red Hat Display';
+	text-align: center;
+	box-shadow: 0px 5px 30px #B8C2DB;
+}
+
+
+/* Image */
+
+.img-container img{
+	max-width: 20em;
+	border-radius: 15px 15px 0px 0px;
+}
+
+
+/* Text container */
+
+.text-container {
+	margin-top: 1.5em;
+}
+
+.title {
+	font-size: 1.1em;
+	font-weight: 900;
+}
+
+.description {
+	font-size: 0.73em;
+	max-width: 19em;
+	font-weight: 500;
+	margin: 1em auto;
+	color: #7A809A;
+	line-height: 18px;
+}
+
+
+/* Plan container */
+
+.plan-container {
+	width: 16em;
+	height: 3em;
+	margin: 2em auto;
+	background-color: #E8EAEF;
+	display: flex;
+}
+
+.music-icon img{
+	left: 0.3em;
+	max-height: 2em;
+	margin: 0.5em 0.5em;
+}
+
+.price {
+	left: 0.3em;
+	max-height: 1.8em;
+	margin: 0.5em 0.5em;
+	font-size: 0.8em;
+}
+
+#annual-plan-p {
+	font-weight: 900;
+}
+
+#price-p {
+	color: #7A809A;
+}
+
+.change-button {
+	right: 0.3em;
+	margin-top: 1.3em;
+	margin-left: 5em;
+	max-height: 1.8em;
+	font-size: 0.7em;
+	font-weight: 900;
+}
+
+
+/* Proceed and cancel button */
+
+.proceed-button {
+	width: 20em;
+	height: 3em;
+	font-weight: 700;
+	font-size: 0.8em;
+	background-color: #382AE1;
+	color: white;
+	border-radius: 6px;
+	border: none;
+	box-shadow: 0px 5px 40px #bbb;
+}
+
+.cancel-order-div {
+	margin-top: 1.6em;
+}
+
+.cancel-order-div a{
+	text-decoration: none;
+	font-size: 13px;
+	color: #7A809A;
+}
+
+
+/* Media queries and hover configs */
+
+@media (max-width: 375px) {
+	body {
+		background: url(images/pattern-background-mobile.svg);
+		background-repeat: no-repeat;
+	}
+}
+
+
+button:hover {
+	cursor: pointer;
+}
+
+.container:hover {
+	cursor: default;
+}
+
+.change-button a:hover {
+	color: #9589F7;
+	text-decoration: none;
+
+}
+
+.proceed-button:hover {
+	background-color: #766CF1;
+}
+
+.cancel-order-div a:hover {
+	color: #000;
+}
