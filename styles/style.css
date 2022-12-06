@@ -1,0 +1,142 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: 3em auto;
+    height: 540px;
+    width: 360px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.illustration img {
+    width: 100%;
+    border-radius: 15px 15px 0 0 ;
+}
+
+
+/* Summary infos */
+
+.summary-infos {
+    margin: 20px 40px;
+    text-align: center;
+}
+
+
+.summary-infos h1 {
+    font-size: 1.5em;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+} 
+
+.summary-infos p {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 0.9em;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+/* Price infos */
+
+.price-infos {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    height: 75px;
+    width: 300px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.music-icon img {
+    max-height: 40px;
+}
+
+.annual-plan {
+    margin-left: 20px;
+    font-size: 0.85em;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.year-price {
+    margin-left: 20px;
+    font-size: 0.85em;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.change-button {
+    margin-left: 30%;
+    font-size: 0.8em;
+}
+
+.change-button a:hover {
+    text-decoration: none;
+    color: hsl(245, 68%, 61%);
+    transition: all 0.2s;
+}
+
+
+/* Payment */
+
+.payment-button, .cancel-order {
+    display: flex;
+    justify-content: center;
+}
+
+.payment-button button {
+    height: 45px;
+    width: 300px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 10px;
+    font-weight: 700;
+    box-shadow: 0 10px 20px lightgrey;
+    transition: 0.2s;
+}
+
+.payment-button button:hover {
+    cursor: pointer;
+    background-color: hsl(245, 68%, 61%);
+    transition: 0.2s;
+}
+
+.cancel-order a {
+    font-size: 0.8em;
+    text-decoration: none;
+    margin-top: 20px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel-order a:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+
+
+/* Responsivity */
+
+@media only screen and (max-width: 700px) {
+    body {
+        background-image: url(/images/pattern-background-mobile.svg);
+    }
+}
