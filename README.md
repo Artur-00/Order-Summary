@@ -8,7 +8,4 @@
 <p>If you also want to try, check this link:</p>https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj
 
 <h3>Conclusion</h3><p>Challenge easily accomplished, this time applying the lessons learned from the feedback received from the previous challenge.</p>
-<p>You can see my result here:</p> https://artur-00.github.io/Order-Summary/
-
-<h3>What i learned?</h3>
-<p>Improved my responsiveness with Media Queries and <i>em</i> unit, and practiced more positioning with CSS3</p>
+<p>You can see my result here:</p> https://artur-00.github.io/Order-summary/
